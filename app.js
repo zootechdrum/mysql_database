@@ -1,6 +1,7 @@
+//the below varibales need to be installed using npm install.
 const faker = require('faker');
 const mysql = require("mysql");
-//zootechdrum
+
 
 const connection = mysql.createConnection({
     host:'localhost',
